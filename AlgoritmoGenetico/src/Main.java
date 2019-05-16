@@ -8,14 +8,14 @@ public class Main {
 		int imp1[] = {10, 8, 6, 5, 7, 8, 6, 9, 6, 10};
 		int imp2[] = {10, 10, 4, 9, 7, 6, 6, 8, 7, 10};
 		int imp3[] = {5, 6, 8, 1, 5, 2, 4, 3, 5, 7};	
-		int te[] = new int [20];
+		
 		//Tamanho Geração
 		int geracao = 200;
 		//Tamanho População
-		int tamPopulacao = 50;
-		float taxaMutacao = 0.05f;
+		int tamPopulacao = 100;
+		float taxaMutacao = 0.02f;
 		float taxaCruzamento = 0.9f;
-		
+		int te[] = new int [tamPopulacao];
 		//Criação Requisitos
 		Requisitos[] r = new Requisitos[10];
 		for(int i=0;i<10;i++) {
